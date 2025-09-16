@@ -47,7 +47,7 @@ public class Main {
 
     // 3. morningGreeting
     public static String morningGreeting(String name) {
-        return "早上好,"+name+"!";
+        return "早上好, "+name+"!";
     }
 
     // 4. afternoonGreeting
@@ -66,12 +66,12 @@ public class Main {
     }
 
     // 7. roundPositiveValueToNearestInteger
-    public static int roundPositiveValueToNearestInteger(Double num) {
+    public static int roundPositiveValueToNearestInteger(double num) {
         return (int)(num+0.5);
     }
 
     // 8. roundNegativeValueToNearestInteger
-    public static int roundNegativeValueToNearestInteger(Double num) {
+    public static int roundNegativeValueToNearestInteger(double num) {
         return (int)(num-0.5);
     }
 
