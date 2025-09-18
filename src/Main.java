@@ -9,28 +9,6 @@
 public class Main {
 
     public static void main(String[] args) {
-        int sum2 = add(5,7);
-        int sum4 = add(5,7,6,6);
-        String morningMsg = morningGreeting("Toby Fox");
-        String afternoonMsg = afternoonGreeting("Mac Miller");
-        String tripleTimes = triple("oohbaby");
-        double halfNum = half(19);
-        int roundedPositive1 =  roundPositiveValueToNearestInteger(8.5);
-        int roundedPositive2 =  roundPositiveValueToNearestInteger(8.49);
-        int roundedNegative1 = roundNegativeValueToNearestInteger(-8.49);
-        int roundedNegative2 = roundNegativeValueToNearestInteger(-8.5);
-        System.out.println(sum2);
-        System.out.println(sum4);
-        System.out.println(morningMsg);
-        System.out.println(afternoonMsg);
-        System.out.println(tripleTimes);
-        System.out.println(halfNum);
-        System.out.println(roundedPositive1);
-        System.out.println(roundedPositive2);
-        System.out.println(roundedNegative1);
-        System.out.println(roundedNegative2);
-
-
     }
 
     // 1. add
